@@ -34,11 +34,16 @@
     justify-content: space-between;
 }
 
-.fist-section {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.content .list-menu li a {
+    padding: 3rem 1rem 2rem 1rem;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 150ms ease-in;
+}
+
+.content .list-menu li a:hover {
+    color: aqua;
+    border-bottom: 3px solid aqua;
 }
