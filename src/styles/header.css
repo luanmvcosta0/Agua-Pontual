@@ -1,0 +1,44 @@
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #33387e;
+    position: fixed;    /* Para o menu ficar fixo */
+    padding-left: 30rem;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3 {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.logo img {         /* Coloquei a imagem em uma caixa, então consigo deixar ela dentro da caixa assim*/
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fist-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
