@@ -1,0 +1,80 @@
+.contatos {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: black;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+    font-size: 5rem;
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+.contatos-sessao {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#whatsapp {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #44E561;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+#instagram {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #F4067F;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+#facebook {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #106AFF;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+#telephone {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #DAA520;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+.contatos-sessao #whatsapp:hover,
+#instagram:hover,
+#facebook:hover,
+#telephone:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}

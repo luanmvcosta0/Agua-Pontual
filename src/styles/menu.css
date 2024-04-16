@@ -1,5 +1,5 @@
 .sobre-nos {
-    background-color: #1f1e1f;
+    background-color: #33387e;
     width: 100%;
     padding-bottom: 5rem;
     color: white;
@@ -30,8 +30,9 @@
 
 .contentsobrenos h2{
     font-size: 6rem;
-    margin-bottom: 1rem;
-    color: rgb(94, 207, 94);
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    color: white;
 }
 
 .contentsobrenos p {
