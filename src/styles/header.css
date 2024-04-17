@@ -6,15 +6,13 @@
     align-items: center;
     background-color: #33387e;
     position: fixed;    /* Para o menu ficar fixo */
-    padding-left: 30rem;
 }
 
 .logo {
-    width: 70px;
+    width: 75px;
     height: auto;
     cursor: pointer;
     display: flex;
-    align-items: center;
 }
 
 .logo h3 {
@@ -45,5 +43,4 @@
 
 .content .list-menu li a:hover {
     color: aqua;
-    border-bottom: 3px solid aqua;
 }
