@@ -1,0 +1,13 @@
+.teste{
+    padding: 50px 0px 50px 0px;
+    height: 30px;
+    color: black;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+}

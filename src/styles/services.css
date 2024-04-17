@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 54px 14px;
+    padding: 12px 0px 12px 0px;
 }
 
 .service-content h2 {
@@ -16,8 +16,9 @@
 }
 
 .service-content p {
+    line-height: 150%;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
     max-width: 780px;
 }
 
@@ -25,24 +26,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 70px;
+    padding: 0px 44px 34px 44px;
 }
 
 .caminhao1,
 .caminhao2,
 .caminhao3 {  
     text-align: center;
-    margin: 0 10px;
-
 }
 
 .caminhao1 img,
 .caminhao2 img,
 .caminhao3 img {
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.6);
+    transition: transform 0.6s;
+    overflow: hidden;
 }
 
+.caminhao1 img:hover,
+.caminhao2 img:hover,
+.caminhao3 img:hover {
+    transform: scale(1.2);
+    z-index: 1;
+} 
+
 .caminhao-info {
-    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    margin-top: 5px;
+    background-color: antiquewhite;
+}
+
+.caminhao-info button {
+    color: white;
+    background-color: rgb(94, 207, 94);
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 0;
+    cursor: default;
+}
+
+@media screen and (max-width: 768px){
+    .tipos-de-caminhoes {
+        flex-direction: column;
+    }
 }
