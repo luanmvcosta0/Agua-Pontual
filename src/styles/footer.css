@@ -33,3 +33,11 @@
     color: white;
     cursor: pointer;
 }
+
+.footer-icons a i {
+    transition: all 250ms ease-in;
+}
+
+.footer-icons a i:hover {
+    color: aqua;
+}

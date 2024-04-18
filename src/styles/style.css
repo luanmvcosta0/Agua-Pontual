@@ -16,3 +16,9 @@ html {
     font-size: 62.5%;       /* Deixar o font size assim é uma prática responsiva */
     overflow-x: hidden;     /* Isso faz com que o site não tenha a barra de rolagem horizontal*/
 }
+
+@media (max-width: 1200px) {
+    .main {
+        display: block;
+    }
+}

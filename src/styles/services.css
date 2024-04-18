@@ -80,10 +80,3 @@
     border: 0;
     cursor: default;
 }
-
-
-@media screen and (max-width: 768px){
-    .tipos-de-caminhoes {
-        flex-direction: column;
-    }
-}
