@@ -24,17 +24,14 @@
 }
 
 .tipos-de-caminhoes {
-    display: flex;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
     justify-content: center;
     align-items: center;
-    gap: 70px;
-    padding: 0px 44px 34px 44px;
-}
-
-.caminhao1,
-.caminhao2,
-.caminhao3 {  
-    text-align: center;
+    gap: 30px;
 }
 
 .caminhao1 img,
@@ -49,12 +46,11 @@
     overflow: hidden;
 }
 
-.caminhao1 img:hover,
-.caminhao2 img:hover,
-.caminhao3 img:hover {
-    transform: scale(1.2);
-    z-index: 1;
-} 
+.tipos-de-caminhoes-centralizado {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .caminhao-info {
     width: 100%;
@@ -79,4 +75,9 @@
     border-radius: 10px;
     border: 0;
     cursor: default;
+}
+
+.tipos-de-caminhoes img {
+    width: 100%;
+    height: 200px;
 }

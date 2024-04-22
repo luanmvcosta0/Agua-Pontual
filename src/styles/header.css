@@ -1,4 +1,4 @@
-.content {
+    .content {
     width: 100vw;
     height: 70px;
     display: flex;
@@ -6,7 +6,6 @@
     align-items: center;
     background-color: #33387e;
     position: fixed;    /* Para o menu ficar fixo */
-    z-index: 99;
 }
 
 .logo {

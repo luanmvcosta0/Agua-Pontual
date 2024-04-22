@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="/src/styles/maps.css">
     <link rel="stylesheet" href="/src/styles/btnWhats.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>LadingPage   </title>
+
+    <title>LadingPage</title>
 </head>
 <body>
     <header class="content">
@@ -24,18 +25,23 @@
 
         <nav>
             <ul class="list-menu">
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Entre em contato</a></li>
+                <li><a href="#sobre_nos">Sobre nós</a></li>
+                <li><a href="#services_">Serviços</a></li>
+                <li><a href="#entre_em_contato">Entre em contato</a></li>
                 <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
                 <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                 <li><a href="#"><i class="bi bi-telephone-fill"></i></a></li>
             </ul> 
-            
         </nav>
+
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
     </header>
 
-    <section class="fist-section">
+    <section class="fist-section" id="home">
         <div class="conteudo-principal">
             <h1>Caminhão Pipa <span>24 horas</span> a sua disposição!!!</h1>
             <h2>Não fique sem água</h2>
@@ -59,18 +65,19 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services_">
         <div class="service-content" >
             <h2>Serviços</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero harum, dolore voluptatem beatae ab veniam adipisci corporis qui, eius quo quaerat nobis reiciendis. Doloribus, unde cum maiores repellat debitis nesciunt.</p>
         </div>
     </section>
 
+    <div class="tipos-de-caminhoes-centralizado">
     <section class="tipos-de-caminhoes">
         <div class="caminhao1">
             <img src="/src/img/caminhao5mil.jpg" alt="Caminhão de 5 mil litros" class="service-image">
             <div class="caminhao-info">
-                <strong>Caminhão com 5 mil litros</strong>
+                <strong>Caminhão 5 mil litros</strong>
                 <button>R$ 1000,00</button>
             </div>
         </div>
@@ -78,7 +85,7 @@
         <div class="caminhao2">
             <img src="/src/img/caminhao10mil.jpg" alt="Caminhão de 10 mil litros" class="service-image">
             <div class="caminhao-info">
-                <strong>Caminhão com 10 mil litros</strong>
+                <strong>Caminhão 10 mil litros</strong>
                 <button>R$ 2000,00</button>
             </div>
         </div>
@@ -86,12 +93,13 @@
         <div class="caminhao3">
             <img src="/src/img/caminhao20mil.jpg" alt="Caminhão de 20 mil litros" class="service-image">
             <div class="caminhao-info">
-                <strong>Caminhão com 20 mil litros</strong>
+                <strong>Caminhão 20 mil litros</strong>
                 <button>R$ 5000,00</button>
             </div>
 
         </div>
     </section>
+    </div>
 
         
     <div>
@@ -101,7 +109,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.426186917405!2d-34.843002970392625!3d-7.993478389326913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3df304ee20ff%3A0x5ddece8f7d5af173!2sMix%20Mateus%20-%20Casa%20Caiada!5e0!3m2!1sen!2sbr!4v1713310511821!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-    <footer class="footer">
+    <footer class="footer" id="entre_em_contato">
         <div class="footer-icons">
                 <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
                 <li><a href="#"><i class="bi bi-instagram"></i></a></li>
@@ -122,5 +130,7 @@
         <img src="/src/img/whatsapp.png" alt="Botão WhasApp">
     </a>
 
+
+    <script src="./javascript/scripts.js"></script>
 </body>
 </html>
