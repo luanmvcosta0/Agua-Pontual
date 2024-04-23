@@ -1,5 +1,5 @@
 .fist-section {
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/src/img/imageCaminhoesJuntos.jpg);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/src/img/caminhaoPrincipal.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     font-size: 5.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    
+    width: 80%;
 }
 
 .fist-section span {

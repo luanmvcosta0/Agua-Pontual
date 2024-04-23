@@ -367,6 +367,11 @@ html body {
 
 @media (max-width: 395px) {
 
+    .fist-section .conteudo-principal h1 {
+        width: 80%;
+        font-size: 4rem;
+    }
+
     .sobre-nos .main p{
         width: 80%;
     }
