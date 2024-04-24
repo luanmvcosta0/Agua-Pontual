@@ -40,6 +40,11 @@ html body {
 
 @media (max-width: 1200px) {    
 
+    .fist-section h1 {
+        width: auto;
+        margin: 0 auto;
+    }
+
     .content {
         display: flex;
         flex-direction: row;
