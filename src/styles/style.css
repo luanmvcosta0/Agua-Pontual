@@ -373,12 +373,13 @@ html body {
 @media (max-width: 395px) {
 
     .fist-section .conteudo-principal h1 {
-        width: 80%;
-        font-size: 4rem;
+        width: 70%;
+        font-size: 3.5rem;
     }
 
     .sobre-nos .main p{
         width: 80%;
+        font: 1.5rem;
     }
 
     .tipos-de-caminhao .caminhao-info {
