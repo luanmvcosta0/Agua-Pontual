@@ -36,3 +36,64 @@ span {
 .btn:hover {
     background-color: rgb(94, 207, 94);
 }
+
+@media (max-width: 750px) {
+    html {
+        font-size: 45%;
+    }
+
+    html body {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 750px) {
+    .main h1 {
+        font-size: 5rem;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .main p {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .main a {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    html body {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 390px) {
+    .main h1 {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .main p {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        max-width: 80%;
+    }
+
+    .btn {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        max-width: 70%;
+    }
+
+    html body {
+        overflow: hidden;
+    }
+}
